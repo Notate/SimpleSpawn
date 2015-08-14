@@ -18,7 +18,7 @@ public class PlayerJoin implements Listener {
 
         Player p = e.getPlayer();
 
-        // Checking if player hasn't been online before
+        // Checking if player hasn't been playing before
         if(p.hasPlayedBefore() == false){
             // Teleporting player to spawn location
             p.teleport(simpleSpawn.location);
