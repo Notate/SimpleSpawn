@@ -1,0 +1,11 @@
+main: no.notate.simplespawn.SimpleSpawn
+version: 1.1
+name: SimpleSpawn
+author: Notate
+description: A simple spawn plugin
+website: notate.no
+commands:
+  setspawn:
+    description: Setting spawn
+  spawn:
+    description: Teleporting to spawn
