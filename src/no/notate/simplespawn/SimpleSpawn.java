@@ -15,7 +15,7 @@ public class SimpleSpawn extends JavaPlugin implements Listener {
 
     public Logger logger;
     public Location location;
-    public boolean allspawn = false;
+    public boolean allspawn = true;
 
 
     public void onEnable(){
@@ -30,7 +30,7 @@ public class SimpleSpawn extends JavaPlugin implements Listener {
             try {
                 allspawn = getConfig().getBoolean("config.permtospawn");
             } catch(Exception e){
-                allspawn = false;
+                allspawn = true;
             }
         }
 
