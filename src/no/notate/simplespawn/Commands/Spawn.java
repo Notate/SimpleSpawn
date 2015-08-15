@@ -31,8 +31,8 @@ public class Spawn implements CommandExecutor {
         // Getting player
         Player p = (Player) commandSender;
 
-        // Checking if every player can use command with out permission, if false = check permission
-        if(simpleSpawn.allspawn == false){
+        // Checking if every player can use command with out permission, if true = check permission
+        if(simpleSpawn.allspawn == true){
 
             // Checking permission or OP
             if(p.hasPermission(this.permission) || p.isOp()){
